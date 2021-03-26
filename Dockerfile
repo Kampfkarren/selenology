@@ -20,5 +20,4 @@ RUN apt install git=1:2.20.1-2+deb10u3
 RUN mkdir -p /usr/bin/selene
 RUN mkdir -p /usr/local/repos
 
-RUN chmod +x entrypoint.sh
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/usr/src/selenology/entrypoint.sh" ]
