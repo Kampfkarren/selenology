@@ -1,0 +1,23 @@
+name: "Selenology"
+description: "Compares to given copies of selene over a series of repositories"
+inputs:
+  current_selene_checkout:
+    description: "What branch to export from for the current repository"
+    required: true
+    default: "main"
+  current_selene_repository:
+    description: "What repository to clone to represent the current selene"
+    required: true
+    default: "https://github.com/Kampfkarren/selene"
+  new_selene_checkout:
+    description: "What branch to export from for the new repository"
+    required: true
+  new_selene_repository:
+    description: "What repository to clone to represent the new selene"
+    required: true
+outputs:
+  output:
+    description: "The HTML render of the differences between new and old selenes"
+runs:
+  using: "docker"
+  image: "Dockerfile"

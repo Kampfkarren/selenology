@@ -1,0 +1,5 @@
+[zombie-strike]
+repo = "https://github.com/Kampfkarren/zombie-strike"
+branch = "9a3497e49a02a15cc2875f96e85469308792ed9a"
+args = ["src"]
+roblox = true

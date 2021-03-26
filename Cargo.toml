@@ -1,0 +1,14 @@
+[package]
+name = "selenology"
+version = "0.1.0"
+authors = ["Kampfkarren <selenology@boyned.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.39"
+dissimilar = "1.0.2"
+env_logger = "0.8.3"
+htmlescape = "0.3.1"
+log = "0.4.14"
+serde = { version = "1.0.125", features = ["derive"] }
+toml = "0.5.8"
