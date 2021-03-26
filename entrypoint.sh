@@ -4,7 +4,7 @@ set -e
 echo "selenology"
 
 echo "cloning current branch"
-git clone $INPUT_CURRENT_SELENE_REPOSITORY selene-current
+git clone $CURRENT_SELENE_REPOSITORY selene-current
 cd selene-current
 
 install() {
@@ -14,16 +14,16 @@ install() {
 }
 
 echo "building current branch"
-git checkout $INPUT_CURRENT_SELENE_CHECKOUT
+git checkout $CURRENT_SELENE_CHECKOUT
 install selene-current &
 
 echo "cloning new branch"
 cd ..
-git clone $INPUT_NEW_SELENE_REPOSITORY selene-new
+git clone $NEW_SELENE_REPOSITORY selene-new
 
 echo "building new branch"
 cd selene-new
-git checkout $INPUT_NEW_SELENE_CHECKOUT
+git checkout $NEW_SELENE_CHECKOUT
 install selene-new &
 
 wait
