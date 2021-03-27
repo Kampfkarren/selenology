@@ -23,7 +23,7 @@ struct EnvArgs {
 }
 
 fn process_text(text: &str) -> String {
-    htmlescape::encode_minimal(&text.replace('\n', "<br />"))
+    htmlescape::encode_minimal(&text).replace('\n', "<br />")
 }
 
 fn render_diff(id: &str, diff: &[Chunk<'_>]) -> String {
