@@ -110,7 +110,7 @@ fn main() -> anyhow::Result<()> {
             .output()
             .context(format!("{}: checking out repository", id))?;
 
-        // TODO: Remove this when the 'selene doesn't rerun with new roblox.toml' bug is fixed
+        // TODO: Remove this when the 'selene doesn't rerun with new roblox.yml' bug is fixed
         if repository.roblox {
             log::debug!("generating roblox std on old selene");
             Command::new(&args.old_selene)
@@ -137,8 +137,8 @@ fn main() -> anyhow::Result<()> {
 
         if repository.roblox {
             log::debug!("generating roblox std on current selene");
-            fs::remove_file(&repo_directory.join("roblox.toml"))
-                .context(format!("{}: deleting old roblox.toml", id))?;
+            fs::remove_file(&repo_directory.join("roblox.yml"))
+                .context(format!("{}: deleting old roblox.yml", id))?;
 
             Command::new(&args.old_selene)
                 .arg("generate-roblox-std")
