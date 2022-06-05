@@ -1,3 +1,8 @@
+[nvim-lspconfig]
+repo = "https://github.com/neovim/nvim-lspconfig"
+branch = "2a455c148341c4faf2dd60401397fed35d084c59"
+args = ["lua", "test"]
+
 [roact]
 repo = "https://github.com/Roblox/roact"
 branch = "2239e01f1664b2f82a21e73a166cc0fc807de033"
