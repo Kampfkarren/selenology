@@ -26,8 +26,6 @@ cd selene-new
 git checkout $NEW_SELENE_CHECKOUT
 install selene-new
 
-# wait
-
 OUTPUT=$(SELENE_NEW=/usr/bin/selene/selene-new \
 	SELENE_OLD=/usr/bin/selene/selene-current \
 	CLONE_DIRECTORY=/usr/local/repos \

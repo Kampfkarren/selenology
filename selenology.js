@@ -12,8 +12,8 @@ const wallyPackages = require("./wally-packages.json");
 const write = (text) => process.stdout.write(text);
 
 const exec = (command, options) => {
-  return new Promise((resolve, reject) => {
-    execChildProcess(command, options, (error, stdout, stderr) => {
+  return new Promise((resolve) => {
+    execChildProcess(command, options, (_error, stdout, stderr) => {
       if (stderr) {
         resolve(stderr);
       } else {
@@ -58,7 +58,7 @@ const main = async () => {
 
   const debug = (text) => {
     if (DEBUG) {
-      console.debug(text);
+      process.stderr.write(`${text}\n`);
     }
   };
 
@@ -84,7 +84,7 @@ const main = async () => {
       recursive: true,
     });
 
-    await exec(`git clone --depth 1 ${repository} ${directory}`);
+    await exec(`git clone --depth 1 ${repository.repo} ${directory}`);
 
     debug("running old selene");
     const oldOutput = await exec(
