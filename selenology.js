@@ -13,8 +13,8 @@ const write = (text) => process.stdout.write(text);
 const exec = (command, options) => {
   return new Promise((resolve, reject) => {
     execChildProcess(command, options, (error, stdout, stderr) => {
-      if (error) {
-        reject(`${error}\nstdout:\n${stdout}\nstderr:\n${stderr}`);
+      if (stderr) {
+        resolve(stderr);
       } else {
         resolve(stdout);
       }
