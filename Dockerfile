@@ -2,7 +2,7 @@ FROM rust:1-alpine
 
 WORKDIR /usr/src/selenology
 
-RUN apk add git nodejs npm
+RUN apk add git nodejs npm gcc-multilib
 
 COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
