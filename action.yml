@@ -19,10 +19,12 @@ outputs:
   output:
     description: "The HTML render of the differences between new and old selenes"
 runs:
-  using: "docker"
-  image: "Dockerfile"
+  using: "composite"
   env:
     CURRENT_SELENE_CHECKOUT: ${{ inputs.current_selene_checkout }}
     CURRENT_SELENE_REPOSITORY: ${{ inputs.current_selene_repository }}
     NEW_SELENE_CHECKOUT: ${{ inputs.new_selene_checkout }}
     NEW_SELENE_REPOSITORY: ${{ inputs.new_selene_repository }}
+  steps:
+    - run: ./entrypoint.sh
+      shell: bash
