@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
 echo "selenology"
@@ -31,7 +31,7 @@ wait
 OUTPUT=$(SELENE_NEW=/usr/bin/selene/selene-new \
 	SELENE_OLD=/usr/bin/selene/selene-current \
 	CLONE_DIRECTORY=/usr/local/repos \
-	selenology)
+	node /usr/src/selenology/selenology.js)
 OUTPUT="${OUTPUT//'%'/'%25'}"
 OUTPUT="${OUTPUT//$'\n'/'%0A'}"
 OUTPUT="${OUTPUT//$'\r'/'%0D'}"
