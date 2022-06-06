@@ -29,13 +29,9 @@ const renderDiff = (id, diff) => {
 
   for (const diffPart of diff) {
     if (diffPart.added) {
-      rendered += `<span style='background-color: #033a16; color: #aff5b4'>${processText(
-        diffPart.value
-      )}</span>`;
+      rendered += `<span class='add'>${processText(diffPart.value)}</span>`;
     } else if (diffPart.removed) {
-      rendered += `<span style='background-color: #67060c; color: #ffdcd7'>${processText(
-        diffPart.value
-      )}</span>`;
+      rendered += `<span class='remove'>${processText(diffPart.value)}</span>`;
     } else {
       rendered += processText(diffPart.value);
     }
@@ -69,7 +65,13 @@ const main = async () => {
   write("<html>");
   write("<head>");
   write("<meta charset='utf-8'>");
-  write("<style>body {{ font-family: Consolas, monospace; }}</style>");
+
+  write("<style>");
+  write("body { font-family: Consolas, monospace; } ");
+  write(".add { background-color: #033a16; color: #aff5b4; } ");
+  write(".remove { background-color: #67060c; color: #ffdcd7; }");
+  write("</style>");
+
   write("</head>");
   write("<body>");
 
@@ -117,6 +119,9 @@ const main = async () => {
   for (const [repoName, repo] of Object.entries(repos)) {
     await runOnRepo(repoName, repo);
   }
+
+  write("</body>");
+  write("</html>");
 };
 
 main().catch((error) => {
