@@ -116,7 +116,10 @@ const main = async () => {
     const difference = diff.diffTrimmedLines(oldOutput, newOutput);
     write(renderDiff(repoName, difference));
 
-    await fs.rmdir(directory);
+    await fs.rm(directory, {
+      force: true,
+      recursive: true,
+    });
   };
 
   for (const [repoName, repo] of Object.entries(repos)) {
