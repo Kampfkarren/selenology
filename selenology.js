@@ -14,7 +14,7 @@ const exec = (command, options) => {
   return new Promise((resolve, reject) => {
     execChildProcess(command, options, (error, stdout, stderr) => {
       if (error) {
-        reject(`${error}\n\n${stderr}`);
+        reject(`${error}\nstdout:\n${stdout}\nstderr:\n${stderr}`);
       } else {
         resolve(stdout);
       }
