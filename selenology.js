@@ -21,22 +21,22 @@ const exec = (command, options) => {
   });
 };
 
-const process = (text) => escape(text).replace(/\n/g, "<br />");
+const processText = (text) => escape(text).replace(/\n/g, "<br />");
 
 const renderDiff = (id, diff) => {
   let rendered = `<div><h2>${id}</h2>`;
 
   for (const diffPart of diff) {
     if (diffPart.added) {
-      rendered += `<span style='background-color: #033a16; color: #aff5b4'>${process(
+      rendered += `<span style='background-color: #033a16; color: #aff5b4'>${processText(
         diffPart.value
       )}</span>`;
     } else if (diffPart.removed) {
-      rendered += `<span style='background-color: #67060c; color: #ffdcd7'>${process(
+      rendered += `<span style='background-color: #67060c; color: #ffdcd7'>${processText(
         diffPart.value
       )}</span>`;
     } else {
-      rendered += process(diffPart.value);
+      rendered += processText(diffPart.value);
     }
   }
 
