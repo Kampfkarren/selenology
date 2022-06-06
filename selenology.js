@@ -80,7 +80,9 @@ const main = async () => {
     debug(`scanning ${repoName}`);
 
     const directory = path.join(CLONE_DIRECTORY, repoName);
-    await fs.mkdir(directory);
+    await fs.mkdir(directory, {
+      recursive: true,
+    });
 
     await exec("git init", { cwd: directory });
     await exec(`git remote add origin ${repository.repo}`, { cwd: directory });
