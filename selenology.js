@@ -1,6 +1,7 @@
 const { exec: execChildProcess } = require("child_process");
 const diff = require("diff");
 const escape = require("escape-html");
+const { existsSync } = require("fs");
 const fs = require("fs/promises");
 const path = require("path");
 const process = require("process");
@@ -94,7 +95,7 @@ const main = async () => {
     );
 
     const robloxStd = path.join(directory, "roblox.yml");
-    if (path.exists(robloxStd)) {
+    if (existsSync(robloxStd)) {
       debug(`deleting ${robloxStd}`);
       await fs.rm(robloxStd);
     }
