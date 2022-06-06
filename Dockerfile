@@ -1,4 +1,4 @@
-FROM node:current-alpine
+FROM rust:1-alpine
 
 WORKDIR /usr/src/selenology
 
@@ -6,7 +6,7 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
 COPY . .
 
-RUN apk add --no-cache git
+RUN apk add git nodejs npm
 
 RUN mkdir -p /usr/bin/selene
 RUN mkdir -p /usr/local/repos
