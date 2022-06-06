@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Check, because I like to run this locally
 if [ ! -d wally-index ]; then
 	mkdir wally-index
@@ -20,8 +22,6 @@ do
 
 	# Check if the repository exists
 	if curl -s -o /dev/null -I $REPO --fail; then
-		>&2 echo -n "\n404: $REPO"
-	else
 		if [ "$FIRST_RUN" -eq 1 ]; then
 			FIRST_RUN=0
 		else
@@ -29,6 +29,8 @@ do
 		fi
 
 		echo -n "\"$WALLY_PACKAGE\": { \"repo\": \"$REPO\", \"roblox\": true, \"args\": [\".\"], \"branch\": \"\" }"
+	else
+		>&2 printf "\n404: $REPO"
 	fi
 done
 

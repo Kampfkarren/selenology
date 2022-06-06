@@ -1,1506 +1,1350 @@
 {
-	"3gabyxd/instantiate": {
-		"repo": "https://github.com/3gabyxd/instantiate",
+	"7kayoh/finder": {
+		"repo": "https://github.com/7kayoh/finder",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"4igz/partcache": {
-		"repo": "https://github.com/4igz/partcache",
+	"7kayoh/lucide": {
+		"repo": "https://github.com/7kayoh/lucide",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"7kayoh/fusionrouter": {
-		"repo": "https://github.com/7kayoh/fusionrouter",
+	"7kayoh/matcher": {
+		"repo": "https://github.com/7kayoh/matcher",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"7kayoh/statedict": {
-		"repo": "https://github.com/7kayoh/statedict",
+	"7kayoh/uithemeservice": {
+		"repo": "https://github.com/7kayoh/uithemeservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"7kayoh/tree": {
-		"repo": "https://github.com/7kayoh/tree",
+	"alreadypro/profileservice": {
+		"repo": "https://github.com/alreadypro/profileservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"aerodymier/timermodule": {
-		"repo": "https://github.com/aerodymier/timermodule",
+	"ambers-careware/pract": {
+		"repo": "https://github.com/ambers-careware/pract",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"aerodymier/weaponskit": {
-		"repo": "https://github.com/aerodymier/weaponskit",
+	"arsonistd/playermaid": {
+		"repo": "https://github.com/arsonistd/playermaid",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"aerodymier/weaponskitserver": {
-		"repo": "https://github.com/aerodymier/weaponskitserver",
+	"astrealrblx/roactive": {
+		"repo": "https://github.com/astrealrblx/roactive",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"alexinite/import": {
-		"repo": "https://github.com/alexinite/import",
+	"boatbomber/boattest": {
+		"repo": "https://github.com/boatbomber/boattest",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"alexinite/lua-array": {
-		"repo": "https://github.com/alexinite/lua-array",
+	"boatbomber/boattween": {
+		"repo": "https://github.com/boatbomber/boattween",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"alexinite/lua-class": {
-		"repo": "https://github.com/alexinite/lua-class",
+	"boatbomber/distortion-screen-rain": {
+		"repo": "https://github.com/boatbomber/distortion-screen-rain",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"alexinite/maid": {
-		"repo": "https://github.com/alexinite/maid",
+	"boatbomber/encryptednet": {
+		"repo": "https://github.com/boatbomber/encryptednet",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"alexinite/switch-case": {
-		"repo": "https://github.com/alexinite/switch-case",
+	"boatbomber/gradientcanvas": {
+		"repo": "https://github.com/boatbomber/gradientcanvas",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"aloroid/fusioncontext": {
-		"repo": "https://github.com/aloroid/fusioncontext",
+	"boatbomber/graphmodule": {
+		"repo": "https://github.com/boatbomber/graphmodule",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"arsonistd/arsonist-framework": {
-		"repo": "https://github.com/arsonistd/arsonist-framework",
+	"boatbomber/hashlib": {
+		"repo": "https://github.com/boatbomber/hashlib",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"as8d/mathutil": {
-		"repo": "https://github.com/as8d/mathutil",
+	"boatbomber/heatup": {
+		"repo": "https://github.com/boatbomber/heatup",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bemery2/cron": {
-		"repo": "https://github.com/bemery2/cron",
+	"boatbomber/highlighter": {
+		"repo": "https://github.com/boatbomber/highlighter",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"biack1st/hitbox-service": {
-		"repo": "https://github.com/biack1st/hitbox-service",
+	"boatbomber/sheetvalues": {
+		"repo": "https://github.com/boatbomber/sheetvalues",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"biack1st/hitbox-service-test-do-not-get": {
-		"repo": "https://github.com/biack1st/hitbox-service-test-do-not-get",
+	"boatbomber/viewportcanvas": {
+		"repo": "https://github.com/boatbomber/viewportcanvas",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bosschaz1010/gizmo": {
-		"repo": "https://github.com/bosschaz1010/gizmo",
+	"boatbomber/windshake": {
+		"repo": "https://github.com/boatbomber/windshake",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brandon-wilcox-supersocial/analyticsservice": {
-		"repo": "https://github.com/brandon-wilcox-supersocial/analyticsservice",
+	"bubbabiga/comet": {
+		"repo": "https://github.com/bubbabiga/comet",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brandon-wilcox-supersocial/analyticsservicetest": {
-		"repo": "https://github.com/brandon-wilcox-supersocial/analyticsservicetest",
+	"bubshayz/comet": {
+		"repo": "https://github.com/bubshayz/comet",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brandon-wilcox-supersocial/base-package": {
-		"repo": "https://github.com/brandon-wilcox-supersocial/base-package",
+	"call23re/draft": {
+		"repo": "https://github.com/call23re/draft",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brandon-wilcox-supersocial/package-template": {
-		"repo": "https://github.com/brandon-wilcox-supersocial/package-template",
+	"call23re/goodsignal": {
+		"repo": "https://github.com/call23re/goodsignal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brandon-wilcox-supersocial/superstack-types": {
-		"repo": "https://github.com/brandon-wilcox-supersocial/superstack-types",
+	"call23re/network": {
+		"repo": "https://github.com/call23re/network",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/camerashaker": {
-		"repo": "https://github.com/brittonfischer/camerashaker",
+	"chipioindustries/leaky-bucket": {
+		"repo": "https://github.com/chipioindustries/leaky-bucket",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/nexus-instance": {
-		"repo": "https://github.com/brittonfischer/nexus-instance",
+	"chipioindustries/lithium": {
+		"repo": "https://github.com/chipioindustries/lithium",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/profileservice": {
-		"repo": "https://github.com/brittonfischer/profileservice",
+	"chipioindustries/llama": {
+		"repo": "https://github.com/chipioindustries/llama",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/replicaservice": {
-		"repo": "https://github.com/brittonfischer/replicaservice",
+	"chipioindustries/pages": {
+		"repo": "https://github.com/chipioindustries/pages",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/rodux-extra": {
-		"repo": "https://github.com/brittonfischer/rodux-extra",
+	"chipioindustries/rapscallion": {
+		"repo": "https://github.com/chipioindustries/rapscallion",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"brittonfischer/spring": {
-		"repo": "https://github.com/brittonfischer/spring",
+	"chipioindustries/remotes": {
+		"repo": "https://github.com/chipioindustries/remotes",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/component": {
-		"repo": "https://github.com/bubbabiga/component",
+	"chipioindustries/replication-middleware": {
+		"repo": "https://github.com/chipioindustries/replication-middleware",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/enumlist": {
-		"repo": "https://github.com/bubbabiga/enumlist",
+	"chipioindustries/roact-rodux": {
+		"repo": "https://github.com/chipioindustries/roact-rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/errorutil": {
-		"repo": "https://github.com/bubbabiga/errorutil",
+	"chipioindustries/rodux": {
+		"repo": "https://github.com/chipioindustries/rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/instanceutil": {
-		"repo": "https://github.com/bubbabiga/instanceutil",
+	"chipioindustries/signal": {
+		"repo": "https://github.com/chipioindustries/signal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/mathutil": {
-		"repo": "https://github.com/bubbabiga/mathutil",
+	"chriscerie/roact-spring": {
+		"repo": "https://github.com/chriscerie/roact-spring",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/network": {
-		"repo": "https://github.com/bubbabiga/network",
+	"cipharius/msgpack-luau": {
+		"repo": "https://github.com/cipharius/msgpack-luau",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/numberutil": {
-		"repo": "https://github.com/bubbabiga/numberutil",
+	"corecii/api-dump-static": {
+		"repo": "https://github.com/corecii/api-dump-static",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/property": {
-		"repo": "https://github.com/bubbabiga/property",
+	"corecii/lua-enum-simple": {
+		"repo": "https://github.com/corecii/lua-enum-simple",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/queue": {
-		"repo": "https://github.com/bubbabiga/queue",
+	"corecii/roact-template": {
+		"repo": "https://github.com/corecii/roact-template",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/region": {
-		"repo": "https://github.com/bubbabiga/region",
+	"corecii/testez": {
+		"repo": "https://github.com/corecii/testez",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/signal": {
-		"repo": "https://github.com/bubbabiga/signal",
+	"csqrl/basicstate": {
+		"repo": "https://github.com/csqrl/basicstate",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/symbol": {
-		"repo": "https://github.com/bubbabiga/symbol",
+	"csqrl/colour-utils": {
+		"repo": "https://github.com/csqrl/colour-utils",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/tableutil": {
-		"repo": "https://github.com/bubbabiga/tableutil",
+	"csqrl/find-up": {
+		"repo": "https://github.com/csqrl/find-up",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/watchman": {
-		"repo": "https://github.com/bubbabiga/watchman",
+	"csqrl/sift": {
+		"repo": "https://github.com/csqrl/sift",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/windlines": {
-		"repo": "https://github.com/bubbabiga/windlines",
+	"csqrl/studio-plugin": {
+		"repo": "https://github.com/csqrl/studio-plugin",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubbabiga/windshake": {
-		"repo": "https://github.com/bubbabiga/windshake",
+	"csqrl/studio-theme": {
+		"repo": "https://github.com/csqrl/studio-theme",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/enumlist": {
-		"repo": "https://github.com/bubshayz/enumlist",
+	"csqrl/url": {
+		"repo": "https://github.com/csqrl/url",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/instanceutil": {
-		"repo": "https://github.com/bubshayz/instanceutil",
+	"cwillsey06/caretaker": {
+		"repo": "https://github.com/cwillsey06/caretaker",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/matrixutil": {
-		"repo": "https://github.com/bubshayz/matrixutil",
+	"ddavness/object-event": {
+		"repo": "https://github.com/ddavness/object-event",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/network": {
-		"repo": "https://github.com/bubshayz/network",
+	"dekkonot/bitbuffer": {
+		"repo": "https://github.com/dekkonot/bitbuffer",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/numberutil": {
-		"repo": "https://github.com/bubshayz/numberutil",
+	"developercron/camerashake": {
+		"repo": "https://github.com/developercron/camerashake",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/profileservice": {
-		"repo": "https://github.com/bubshayz/profileservice",
+	"duckarmor/roact-rodux": {
+		"repo": "https://github.com/duckarmor/roact-rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/property": {
-		"repo": "https://github.com/bubshayz/property",
+	"easy-games/chickynoid": {
+		"repo": "https://github.com/easy-games/chickynoid",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/queue": {
-		"repo": "https://github.com/bubshayz/queue",
+	"eldonwilliams/basicstate": {
+		"repo": "https://github.com/eldonwilliams/basicstate",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/region": {
-		"repo": "https://github.com/bubshayz/region",
+	"eldonwilliams/profileservice": {
+		"repo": "https://github.com/eldonwilliams/profileservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/symbol": {
-		"repo": "https://github.com/bubshayz/symbol",
+	"eldonwilliams/replicaservice": {
+		"repo": "https://github.com/eldonwilliams/replicaservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/watchman": {
-		"repo": "https://github.com/bubshayz/watchman",
+	"eldonwilliams/spr": {
+		"repo": "https://github.com/eldonwilliams/spr",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bubshayz/windlines": {
-		"repo": "https://github.com/bubshayz/windlines",
+	"elttob/fusion": {
+		"repo": "https://github.com/elttob/fusion",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/finite-state-machine": {
-		"repo": "https://github.com/bytebit/finite-state-machine",
+	"encodedvenom/remotecomponent": {
+		"repo": "https://github.com/encodedvenom/remotecomponent",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/fitumi": {
-		"repo": "https://github.com/bytebit/fitumi",
+	"ethancurtiss/catrom": {
+		"repo": "https://github.com/ethancurtiss/catrom",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/linalg": {
-		"repo": "https://github.com/bytebit/linalg",
+	"evaera/cmdr": {
+		"repo": "https://github.com/evaera/cmdr",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/networked-signals": {
-		"repo": "https://github.com/bytebit/networked-signals",
+	"evaera/inspect": {
+		"repo": "https://github.com/evaera/inspect",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/player-statistics": {
-		"repo": "https://github.com/bytebit/player-statistics",
+	"evaera/jmespath": {
+		"repo": "https://github.com/evaera/jmespath",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/reward-containers": {
-		"repo": "https://github.com/bytebit/reward-containers",
+	"evaera/matter": {
+		"repo": "https://github.com/evaera/matter",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/server-networked-values": {
-		"repo": "https://github.com/bytebit/server-networked-values",
+	"evaera/plasma": {
+		"repo": "https://github.com/evaera/plasma",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/signals-tooling": {
-		"repo": "https://github.com/bytebit/signals-tooling",
+	"flamenco687/bank": {
+		"repo": "https://github.com/flamenco687/bank",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/statistics": {
-		"repo": "https://github.com/bytebit/statistics",
+	"flamenco687/maid": {
+		"repo": "https://github.com/flamenco687/maid",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/timer": {
-		"repo": "https://github.com/bytebit/timer",
+	"flamenco687/mirror": {
+		"repo": "https://github.com/flamenco687/mirror",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"bytebit/touch-screen-joysticks": {
-		"repo": "https://github.com/bytebit/touch-screen-joysticks",
+	"freddylist/llama": {
+		"repo": "https://github.com/freddylist/llama",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chabba100/llama": {
-		"repo": "https://github.com/chabba100/llama",
+	"fxllencode/devops-rblx-tutorial": {
+		"repo": "https://github.com/fxllencode/devops-rblx-tutorial",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chabba100/zone": {
-		"repo": "https://github.com/chabba100/zone",
+	"fxllencode/roxios": {
+		"repo": "https://github.com/fxllencode/roxios",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/game-template": {
-		"repo": "https://github.com/chainreactionist/game-template",
+	"hawdevelopment/fission": {
+		"repo": "https://github.com/hawdevelopment/fission",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/gameanalytics": {
-		"repo": "https://github.com/chainreactionist/gameanalytics",
+	"hawdevelopment/river": {
+		"repo": "https://github.com/hawdevelopment/river",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/gameanalyticssdk": {
-		"repo": "https://github.com/chainreactionist/gameanalyticssdk",
+	"hawdevelopment/ro-express": {
+		"repo": "https://github.com/hawdevelopment/ro-express",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/test1": {
-		"repo": "https://github.com/chainreactionist/test1",
+	"hexsocean/fusion-rodux": {
+		"repo": "https://github.com/hexsocean/fusion-rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/test2": {
-		"repo": "https://github.com/chainreactionist/test2",
+	"howmanysmall/datastructures": {
+		"repo": "https://github.com/howmanysmall/datastructures",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/test3": {
-		"repo": "https://github.com/chainreactionist/test3",
+	"howmanysmall/enumerator": {
+		"repo": "https://github.com/howmanysmall/enumerator",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"chainreactionist/test4": {
-		"repo": "https://github.com/chainreactionist/test4",
+	"howmanysmall/helium": {
+		"repo": "https://github.com/howmanysmall/helium",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ddavness/http-queue": {
-		"repo": "https://github.com/ddavness/http-queue",
+	"howmanysmall/janitor": {
+		"repo": "https://github.com/howmanysmall/janitor",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"dekkonot/api-dump": {
-		"repo": "https://github.com/dekkonot/api-dump",
+	"howmanysmall/matter2": {
+		"repo": "https://github.com/howmanysmall/matter2",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"developercron/cameravisualizer": {
-		"repo": "https://github.com/developercron/cameravisualizer",
+	"imacodr/fetchu": {
+		"repo": "https://github.com/imacodr/fetchu",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"developercron/icon": {
-		"repo": "https://github.com/developercron/icon",
+	"imacodr/landon": {
+		"repo": "https://github.com/imacodr/landon",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"duckarmor/freeze": {
-		"repo": "https://github.com/duckarmor/freeze",
+	"imacodr/layoututil": {
+		"repo": "https://github.com/imacodr/layoututil",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"eai/component": {
-		"repo": "https://github.com/eai/component",
+	"imacodr/rss": {
+		"repo": "https://github.com/imacodr/rss",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"edendeden/my-package": {
-		"repo": "https://github.com/edendeden/my-package",
+	"jaipack17/gizmo2d": {
+		"repo": "https://github.com/jaipack17/gizmo2d",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"encodedvenom/fastcastredux": {
-		"repo": "https://github.com/encodedvenom/fastcastredux",
+	"jaipack17/nature2d": {
+		"repo": "https://github.com/jaipack17/nature2d",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"encodedvenom/pascalcasepromise": {
-		"repo": "https://github.com/encodedvenom/pascalcasepromise",
+	"kairamah/registry": {
+		"repo": "https://github.com/kairamah/registry",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"evaera/promise": {
-		"repo": "https://github.com/evaera/promise",
+	"kampfkarren/bitbuffer": {
+		"repo": "https://github.com/kampfkarren/bitbuffer",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/binder": {
-		"repo": "https://github.com/finobinos/binder",
+	"kampfkarren/roact-hooks": {
+		"repo": "https://github.com/kampfkarren/roact-hooks",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/comet": {
-		"repo": "https://github.com/finobinos/comet",
+	"kennethloeffler/anatta": {
+		"repo": "https://github.com/kennethloeffler/anatta",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/cometest": {
-		"repo": "https://github.com/finobinos/cometest",
+	"kyexyz/bloxios": {
+		"repo": "https://github.com/kyexyz/bloxios",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/component": {
-		"repo": "https://github.com/finobinos/component",
+	"kyrethia/registry": {
+		"repo": "https://github.com/kyrethia/registry",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/maid": {
-		"repo": "https://github.com/finobinos/maid",
+	"lasttalon/monolith": {
+		"repo": "https://github.com/lasttalon/monolith",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/numberutil": {
-		"repo": "https://github.com/finobinos/numberutil",
+	"legendoj1/tweenservice2": {
+		"repo": "https://github.com/legendoj1/tweenservice2",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/ray": {
-		"repo": "https://github.com/finobinos/ray",
+	"legendoj1/zoneplus": {
+		"repo": "https://github.com/legendoj1/zoneplus",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/raycast": {
-		"repo": "https://github.com/finobinos/raycast",
+	"lewistehminerz/pooler": {
+		"repo": "https://github.com/lewistehminerz/pooler",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/remote": {
-		"repo": "https://github.com/finobinos/remote",
+	"lucasmzreal/fastsignal": {
+		"repo": "https://github.com/lucasmzreal/fastsignal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/safewaitutil": {
-		"repo": "https://github.com/finobinos/safewaitutil",
+	"meta-maxim/knit-rojo-template": {
+		"repo": "https://github.com/meta-maxim/knit-rojo-template",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/signal": {
-		"repo": "https://github.com/finobinos/signal",
+	"meta-maxim/luau-type-parser": {
+		"repo": "https://github.com/meta-maxim/luau-type-parser",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/tableutil": {
-		"repo": "https://github.com/finobinos/tableutil",
+	"meta-maxim/luau-types": {
+		"repo": "https://github.com/meta-maxim/luau-types",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/timer": {
-		"repo": "https://github.com/finobinos/timer",
+	"minstrix/bridge": {
+		"repo": "https://github.com/minstrix/bridge",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"finobinos/userinput": {
-		"repo": "https://github.com/finobinos/userinput",
+	"nezuo/evaluate": {
+		"repo": "https://github.com/nezuo/evaluate",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"flamenco687/error": {
-		"repo": "https://github.com/flamenco687/error",
+	"nezuo/spark": {
+		"repo": "https://github.com/nezuo/spark",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"flamenco687/game": {
-		"repo": "https://github.com/flamenco687/game",
+	"nezuo/subject": {
+		"repo": "https://github.com/nezuo/subject",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"flamenco687/roblox-proxy": {
-		"repo": "https://github.com/flamenco687/roblox-proxy",
+	"nightcycle/boat-graph": {
+		"repo": "https://github.com/nightcycle/boat-graph",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"gameanalytics/gameanalytics-sdk": {
-		"repo": "https://github.com/gameanalytics/gameanalytics-sdk",
+	"nightcycle/boattween": {
+		"repo": "https://github.com/nightcycle/boattween",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"hawdevelopment/express": {
-		"repo": "https://github.com/hawdevelopment/express",
+	"nightcycle/checkbox": {
+		"repo": "https://github.com/nightcycle/checkbox",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"hero-ku/stream": {
-		"repo": "https://github.com/hero-ku/stream",
+	"nightcycle/draw": {
+		"repo": "https://github.com/nightcycle/draw",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"hexsocean/commodore": {
-		"repo": "https://github.com/hexsocean/commodore",
+	"nightcycle/effect": {
+		"repo": "https://github.com/nightcycle/effect",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"imacodr/texturebox": {
-		"repo": "https://github.com/imacodr/texturebox",
+	"nightcycle/enum": {
+		"repo": "https://github.com/nightcycle/enum",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"integern/vitality": {
-		"repo": "https://github.com/integern/vitality",
+	"nightcycle/fetchu": {
+		"repo": "https://github.com/nightcycle/fetchu",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jaipack17/gui-pivot": {
-		"repo": "https://github.com/jaipack17/gui-pivot",
+	"nightcycle/fire": {
+		"repo": "https://github.com/nightcycle/fire",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jakebball/anime-clickers": {
-		"repo": "https://github.com/jakebball/anime-clickers",
+	"nightcycle/format": {
+		"repo": "https://github.com/nightcycle/format",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jakebball/fusionutils": {
-		"repo": "https://github.com/jakebball/fusionutils",
+	"nightcycle/gui-3d": {
+		"repo": "https://github.com/nightcycle/gui-3d",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jakebball/profileservice": {
-		"repo": "https://github.com/jakebball/profileservice",
+	"nightcycle/iconlabel": {
+		"repo": "https://github.com/nightcycle/iconlabel",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jakebball/sunfish": {
-		"repo": "https://github.com/jakebball/sunfish",
+	"nightcycle/instancify": {
+		"repo": "https://github.com/nightcycle/instancify",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"joesmaller/http-util": {
-		"repo": "https://github.com/joesmaller/http-util",
+	"nightcycle/isotope": {
+		"repo": "https://github.com/nightcycle/isotope",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"joesmaller/httputil": {
-		"repo": "https://github.com/joesmaller/httputil",
+	"nightcycle/math": {
+		"repo": "https://github.com/nightcycle/math",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"joesmaller/parallel-util": {
-		"repo": "https://github.com/joesmaller/parallel-util",
+	"nightcycle/math2": {
+		"repo": "https://github.com/nightcycle/math2",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/beziertweens": {
-		"repo": "https://github.com/jovannijovanni/beziertweens",
+	"nightcycle/midas": {
+		"repo": "https://github.com/nightcycle/midas",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/collisiongroups": {
-		"repo": "https://github.com/jovannijovanni/collisiongroups",
+	"nightcycle/player": {
+		"repo": "https://github.com/nightcycle/player",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/draw": {
-		"repo": "https://github.com/jovannijovanni/draw",
+	"nightcycle/query": {
+		"repo": "https://github.com/nightcycle/query",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/map": {
-		"repo": "https://github.com/jovannijovanni/map",
+	"nightcycle/radio-button": {
+		"repo": "https://github.com/nightcycle/radio-button",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/mouse": {
-		"repo": "https://github.com/jovannijovanni/mouse",
+	"nightcycle/reactor": {
+		"repo": "https://github.com/nightcycle/reactor",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/new": {
-		"repo": "https://github.com/jovannijovanni/new",
+	"nightcycle/rx": {
+		"repo": "https://github.com/nightcycle/rx",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/porter": {
-		"repo": "https://github.com/jovannijovanni/porter",
+	"nightcycle/sound": {
+		"repo": "https://github.com/nightcycle/sound",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/pyfuncs": {
-		"repo": "https://github.com/jovannijovanni/pyfuncs",
+	"nightcycle/string": {
+		"repo": "https://github.com/nightcycle/string",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/ratelimiter": {
-		"repo": "https://github.com/jovannijovanni/ratelimiter",
+	"nightcycle/switch": {
+		"repo": "https://github.com/nightcycle/switch",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"jovannijovanni/weightedrandoms": {
-		"repo": "https://github.com/jovannijovanni/weightedrandoms",
+	"nightcycle/synthetic": {
+		"repo": "https://github.com/nightcycle/synthetic",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"kyexyz/player-data-manager": {
-		"repo": "https://github.com/kyexyz/player-data-manager",
+	"nightcycle/textlabel": {
+		"repo": "https://github.com/nightcycle/textlabel",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"magnalite/test": {
-		"repo": "https://github.com/magnalite/test",
+	"nightcycle/texture": {
+		"repo": "https://github.com/nightcycle/texture",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"magnalite/test-package": {
-		"repo": "https://github.com/magnalite/test-package",
+	"nightcycle/timesync": {
+		"repo": "https://github.com/nightcycle/timesync",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"meta-maxim/class-names": {
-		"repo": "https://github.com/meta-maxim/class-names",
+	"nightcycle/typography": {
+		"repo": "https://github.com/nightcycle/typography",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"meta-maxim/data-type-names": {
-		"repo": "https://github.com/meta-maxim/data-type-names",
+	"nightcycle/valuesequence": {
+		"repo": "https://github.com/nightcycle/valuesequence",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"meta-maxim/instance-names": {
-		"repo": "https://github.com/meta-maxim/instance-names",
+	"nightcycle/viewport-handler": {
+		"repo": "https://github.com/nightcycle/viewport-handler",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"meta-maxim/knit-remote-type-checker": {
-		"repo": "https://github.com/meta-maxim/knit-remote-type-checker",
+	"nightcycle/voxel": {
+		"repo": "https://github.com/nightcycle/voxel",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"meta-maxim/type": {
-		"repo": "https://github.com/meta-maxim/type",
+	"nomer888/bindtoattribute": {
+		"repo": "https://github.com/nomer888/bindtoattribute",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"minstrix/fibre": {
-		"repo": "https://github.com/minstrix/fibre",
+	"nomer888/bindtotag": {
+		"repo": "https://github.com/nomer888/bindtotag",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"mistrustfully/matter-ui": {
-		"repo": "https://github.com/mistrustfully/matter-ui",
+	"nomer888/mockdatastoreservice": {
+		"repo": "https://github.com/nomer888/mockdatastoreservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"mkargus/basicstate": {
-		"repo": "https://github.com/mkargus/basicstate",
+	"nottirb/storytaskbar": {
+		"repo": "https://github.com/nottirb/storytaskbar",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"mobiuscraftflip/test-package": {
-		"repo": "https://github.com/mobiuscraftflip/test-package",
+	"octale/tokeru": {
+		"repo": "https://github.com/octale/tokeru",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"mobyboyy/profileservice": {
-		"repo": "https://github.com/mobyboyy/profileservice",
+	"osyrisrblx/t": {
+		"repo": "https://github.com/osyrisrblx/t",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"newspicel/discordwebhook": {
-		"repo": "https://github.com/newspicel/discordwebhook",
+	"ozzypig/logging": {
+		"repo": "https://github.com/ozzypig/logging",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nezuo/aether": {
-		"repo": "https://github.com/nezuo/aether",
+	"passhley/gooey-particles": {
+		"repo": "https://github.com/passhley/gooey-particles",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nezuo/enumerate": {
-		"repo": "https://github.com/nezuo/enumerate",
+	"polarsystems/polaradmin": {
+		"repo": "https://github.com/polarsystems/polaradmin",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nidoxs/datastore2": {
-		"repo": "https://github.com/nidoxs/datastore2",
+	"raphtalia/adornee": {
+		"repo": "https://github.com/raphtalia/adornee",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/attributer": {
-		"repo": "https://github.com/nightcycle/attributer",
+	"raphtalia/canvas": {
+		"repo": "https://github.com/raphtalia/canvas",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/cold-fusion": {
-		"repo": "https://github.com/nightcycle/cold-fusion",
+	"raphtalia/class": {
+		"repo": "https://github.com/raphtalia/class",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/filter": {
-		"repo": "https://github.com/nightcycle/filter",
+	"raphtalia/enum": {
+		"repo": "https://github.com/raphtalia/enum",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/fsm": {
-		"repo": "https://github.com/nightcycle/fsm",
+	"raphtalia/luanoid": {
+		"repo": "https://github.com/raphtalia/luanoid",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/hitbox": {
-		"repo": "https://github.com/nightcycle/hitbox",
+	"raphtalia/rbxutils": {
+		"repo": "https://github.com/raphtalia/rbxutils",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/library": {
-		"repo": "https://github.com/nightcycle/library",
+	"raphtalia/robloxapi": {
+		"repo": "https://github.com/raphtalia/robloxapi",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/package": {
-		"repo": "https://github.com/nightcycle/package",
+	"raphtalia/signal": {
+		"repo": "https://github.com/raphtalia/signal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nightcycle/replicator": {
-		"repo": "https://github.com/nightcycle/replicator",
+	"raphtalia/vrlib": {
+		"repo": "https://github.com/raphtalia/vrlib",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nomer888/playerdatastore": {
-		"repo": "https://github.com/nomer888/playerdatastore",
+	"reselim/base64": {
+		"repo": "https://github.com/reselim/base64",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nottirb/fusion-test": {
-		"repo": "https://github.com/nottirb/fusion-test",
+	"reselim/flipper": {
+		"repo": "https://github.com/reselim/flipper",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nottirb/fusion-utils": {
-		"repo": "https://github.com/nottirb/fusion-utils",
+	"reselim/quicksave": {
+		"repo": "https://github.com/reselim/quicksave",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"nottirb/profileservice": {
-		"repo": "https://github.com/nottirb/profileservice",
+	"reselim/roact-flipper": {
+		"repo": "https://github.com/reselim/roact-flipper",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"octale/profileservice": {
-		"repo": "https://github.com/octale/profileservice",
+	"reselim/roact-router": {
+		"repo": "https://github.com/reselim/roact-router",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ofjai/fastcast": {
-		"repo": "https://github.com/ofjai/fastcast",
+	"revvy02/cleaner": {
+		"repo": "https://github.com/revvy02/cleaner",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ofjai/profileservice": {
-		"repo": "https://github.com/ofjai/profileservice",
+	"revvy02/mocknetwork": {
+		"repo": "https://github.com/revvy02/mocknetwork",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"overlinejunior/multisound": {
-		"repo": "https://github.com/overlinejunior/multisound",
+	"revvy02/slick": {
+		"repo": "https://github.com/revvy02/slick",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"overlinejunior/result": {
-		"repo": "https://github.com/overlinejunior/result",
+	"rimuy/gamejoy": {
+		"repo": "https://github.com/rimuy/gamejoy",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"passhley/wobble": {
-		"repo": "https://github.com/passhley/wobble",
+	"rimuy/roselect": {
+		"repo": "https://github.com/rimuy/roselect",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"pastelly64/bloxwork": {
-		"repo": "https://github.com/pastelly64/bloxwork",
+	"roblox/roact": {
+		"repo": "https://github.com/roblox/roact",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/boattween": {
-		"repo": "https://github.com/penguindevs/boattween",
+	"roblox/roact-rodux": {
+		"repo": "https://github.com/roblox/roact-rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/boattween-fork": {
-		"repo": "https://github.com/penguindevs/boattween-fork",
+	"roblox/rodux": {
+		"repo": "https://github.com/roblox/rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/easing-funcs": {
-		"repo": "https://github.com/penguindevs/easing-funcs",
+	"roblox/testez": {
+		"repo": "https://github.com/roblox/testez",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/instance-cache": {
-		"repo": "https://github.com/penguindevs/instance-cache",
+	"rstk/bitbuffer": {
+		"repo": "https://github.com/rstk/bitbuffer",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/loadstring": {
-		"repo": "https://github.com/penguindevs/loadstring",
+	"rudy-dev/profileservice": {
+		"repo": "https://github.com/rudy-dev/profileservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/numerics": {
-		"repo": "https://github.com/penguindevs/numerics",
+	"rudy-dev/random": {
+		"repo": "https://github.com/rudy-dev/random",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"penguindevs/trove-fork": {
-		"repo": "https://github.com/penguindevs/trove-fork",
+	"ruizukun-dev/fusion": {
+		"repo": "https://github.com/ruizukun-dev/fusion",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"qromp/create-context": {
-		"repo": "https://github.com/qromp/create-context",
+	"ruizukun-dev/janitor": {
+		"repo": "https://github.com/ruizukun-dev/janitor",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"qromp/edge-insets": {
-		"repo": "https://github.com/qromp/edge-insets",
+	"ruizukun-dev/llama": {
+		"repo": "https://github.com/ruizukun-dev/llama",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"qromp/llama": {
-		"repo": "https://github.com/qromp/llama",
+	"ruizukun-dev/matter": {
+		"repo": "https://github.com/ruizukun-dev/matter",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"qromp/stylizer": {
-		"repo": "https://github.com/qromp/stylizer",
+	"ruizukun-dev/nature2d": {
+		"repo": "https://github.com/ruizukun-dev/nature2d",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"qualadore/promise": {
-		"repo": "https://github.com/qualadore/promise",
+	"ruizukun-dev/profileservice": {
+		"repo": "https://github.com/ruizukun-dev/profileservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"quenty/binder": {
-		"repo": "https://github.com/quenty/binder",
+	"ruizukun-dev/t": {
+		"repo": "https://github.com/ruizukun-dev/t",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"quenty/loader": {
-		"repo": "https://github.com/quenty/loader",
+	"ruizukun-dev/testez": {
+		"repo": "https://github.com/ruizukun-dev/testez",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"quenty/maid": {
-		"repo": "https://github.com/quenty/maid",
+	"sadneo/loader": {
+		"repo": "https://github.com/sadneo/loader",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"quenty/promise": {
-		"repo": "https://github.com/quenty/promise",
+	"sarimwastaken/roexpress": {
+		"repo": "https://github.com/sarimwastaken/roexpress",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"quenty/signal": {
-		"repo": "https://github.com/quenty/signal",
+	"sayhisam1/rbx-roact-components": {
+		"repo": "https://github.com/sayhisam1/rbx-roact-components",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"raphtalia/firebase": {
-		"repo": "https://github.com/raphtalia/firebase",
+	"sayhisam1/rewire": {
+		"repo": "https://github.com/sayhisam1/rewire",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"raphtalia/hashlib": {
-		"repo": "https://github.com/raphtalia/hashlib",
+	"sayhisam1/ropost": {
+		"repo": "https://github.com/sayhisam1/ropost",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"riverman56/willow": {
-		"repo": "https://github.com/riverman56/willow",
+	"sayhisam1/stitch": {
+		"repo": "https://github.com/sayhisam1/stitch",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"rstk/reactivegraph": {
-		"repo": "https://github.com/rstk/reactivegraph",
+	"scotch101tape/rusty-luau": {
+		"repo": "https://github.com/scotch101tape/rusty-luau",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/core": {
-		"repo": "https://github.com/ruizukun-dev/core",
+	"shadowengineer/zoneplus": {
+		"repo": "https://github.com/shadowengineer/zoneplus",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/playermodule": {
-		"repo": "https://github.com/ruizukun-dev/playermodule",
+	"shanebutt/llama": {
+		"repo": "https://github.com/shanebutt/llama",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/promise": {
-		"repo": "https://github.com/ruizukun-dev/promise",
+	"shanebutt/portal": {
+		"repo": "https://github.com/shanebutt/portal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/raycasthitbox": {
-		"repo": "https://github.com/ruizukun-dev/raycasthitbox",
+	"shanebutt/t": {
+		"repo": "https://github.com/shanebutt/t",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/tests": {
-		"repo": "https://github.com/ruizukun-dev/tests",
+	"sircfenner/studiocomponents": {
+		"repo": "https://github.com/sircfenner/studiocomponents",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"ruizukun-dev/utilities": {
-		"repo": "https://github.com/ruizukun-dev/utilities",
+	"si-senortn/scarlet": {
+		"repo": "https://github.com/si-senortn/scarlet",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sarimwastaken/madprofileservice": {
-		"repo": "https://github.com/sarimwastaken/madprofileservice",
+	"sleitnick/axis": {
+		"repo": "https://github.com/sleitnick/axis",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sarimwastaken/profileservice": {
-		"repo": "https://github.com/sarimwastaken/profileservice",
+	"sleitnick/knit": {
+		"repo": "https://github.com/sleitnick/knit",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"shanebutt/robase-service": {
-		"repo": "https://github.com/shanebutt/robase-service",
+	"solarhorizon/rodux-hooks": {
+		"repo": "https://github.com/solarhorizon/rodux-hooks",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/attribute": {
-		"repo": "https://github.com/si-senortn/attribute",
+	"stealthwave5/overlord": {
+		"repo": "https://github.com/stealthwave5/overlord",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/color": {
-		"repo": "https://github.com/si-senortn/color",
+	"stravant/goodsignal": {
+		"repo": "https://github.com/stravant/goodsignal",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/config": {
-		"repo": "https://github.com/si-senortn/config",
+	"synthetic-dev/enums": {
+		"repo": "https://github.com/synthetic-dev/enums",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/enum": {
-		"repo": "https://github.com/si-senortn/enum",
+	"synthetic-dev/ezspec": {
+		"repo": "https://github.com/synthetic-dev/ezspec",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/events": {
-		"repo": "https://github.com/si-senortn/events",
+	"synthetic-dev/mydatastore": {
+		"repo": "https://github.com/synthetic-dev/mydatastore",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/input": {
-		"repo": "https://github.com/si-senortn/input",
+	"thenerdie/roact-rodux": {
+		"repo": "https://github.com/thenerdie/roact-rodux",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/list": {
-		"repo": "https://github.com/si-senortn/list",
+	"thenerdie/roact-router": {
+		"repo": "https://github.com/thenerdie/roact-router",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/math": {
-		"repo": "https://github.com/si-senortn/math",
+	"ukendio/robloxmath": {
+		"repo": "https://github.com/ukendio/robloxmath",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/set": {
-		"repo": "https://github.com/si-senortn/set",
+	"u-train/instancequerier": {
+		"repo": "https://github.com/u-train/instancequerier",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/signal": {
-		"repo": "https://github.com/si-senortn/signal",
+	"u-train/studiocomponents": {
+		"repo": "https://github.com/u-train/studiocomponents",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/strict": {
-		"repo": "https://github.com/si-senortn/strict",
+	"vilbat/component": {
+		"repo": "https://github.com/vilbat/component",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/symbol": {
-		"repo": "https://github.com/si-senortn/symbol",
+	"vilbat/composition": {
+		"repo": "https://github.com/vilbat/composition",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/table": {
-		"repo": "https://github.com/si-senortn/table",
+	"vilbat/statemachine": {
+		"repo": "https://github.com/vilbat/statemachine",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/vector": {
-		"repo": "https://github.com/si-senortn/vector",
+	"vocksel/class": {
+		"repo": "https://github.com/vocksel/class",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"si-senortn/yieldable": {
-		"repo": "https://github.com/si-senortn/yieldable",
+	"vocksel/complex-regions": {
+		"repo": "https://github.com/vocksel/complex-regions",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/comm": {
-		"repo": "https://github.com/sleitnick/comm",
+	"vocksel/context-controls": {
+		"repo": "https://github.com/vocksel/context-controls",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/component": {
-		"repo": "https://github.com/sleitnick/component",
+	"vocksel/import": {
+		"repo": "https://github.com/vocksel/import",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/concur": {
-		"repo": "https://github.com/sleitnick/concur",
+	"vocksel/mock": {
+		"repo": "https://github.com/vocksel/mock",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/enum-list": {
-		"repo": "https://github.com/sleitnick/enum-list",
+	"vocksel/module-loader": {
+		"repo": "https://github.com/vocksel/module-loader",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/input": {
-		"repo": "https://github.com/sleitnick/input",
+	"vocksel/tag": {
+		"repo": "https://github.com/vocksel/tag",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/loader": {
-		"repo": "https://github.com/sleitnick/loader",
+	"vocksel/timer": {
+		"repo": "https://github.com/vocksel/timer",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/log": {
-		"repo": "https://github.com/sleitnick/log",
+	"vocksel/viewport-skybox": {
+		"repo": "https://github.com/vocksel/viewport-skybox",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/option": {
-		"repo": "https://github.com/sleitnick/option",
+	"weldify/lynx": {
+		"repo": "https://github.com/weldify/lynx",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/pid": {
-		"repo": "https://github.com/sleitnick/pid",
+	"xactlyblue/rocomponents": {
+		"repo": "https://github.com/xactlyblue/rocomponents",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/remote": {
-		"repo": "https://github.com/sleitnick/remote",
+	"ytrev/replion": {
+		"repo": "https://github.com/ytrev/replion",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/ser": {
-		"repo": "https://github.com/sleitnick/ser",
+	"zxibs/bitbuffer": {
+		"repo": "https://github.com/zxibs/bitbuffer",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/shake": {
-		"repo": "https://github.com/sleitnick/shake",
+	"zxibs/roact": {
+		"repo": "https://github.com/zxibs/roact",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/signal": {
-		"repo": "https://github.com/sleitnick/signal",
+	"zxibs/signalservice": {
+		"repo": "https://github.com/zxibs/signalservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
 	},
-	"sleitnick/silo": {
-		"repo": "https://github.com/sleitnick/silo",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/streamable": {
-		"repo": "https://github.com/sleitnick/streamable",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/symbol": {
-		"repo": "https://github.com/sleitnick/symbol",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/table-util": {
-		"repo": "https://github.com/sleitnick/table-util",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/task-queue": {
-		"repo": "https://github.com/sleitnick/task-queue",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/timer": {
-		"repo": "https://github.com/sleitnick/timer",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/trove": {
-		"repo": "https://github.com/sleitnick/trove",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"sleitnick/wait-for": {
-		"repo": "https://github.com/sleitnick/wait-for",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"synthetic-dev/kache": {
-		"repo": "https://github.com/synthetic-dev/kache",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"t4rp/istrue": {
-		"repo": "https://github.com/t4rp/istrue",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"thenerdie/raxios": {
-		"repo": "https://github.com/thenerdie/raxios",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"thenerdie/rbx-parse-server": {
-		"repo": "https://github.com/thenerdie/rbx-parse-server",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tiniestdev/moceanlib": {
-		"repo": "https://github.com/tiniestdev/moceanlib",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tkdriverx/foreman": {
-		"repo": "https://github.com/tkdriverx/foreman",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tpc9000/tableutil": {
-		"repo": "https://github.com/tpc9000/tableutil",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tpc9000/typeguard": {
-		"repo": "https://github.com/tpc9000/typeguard",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tripptrapp84/statemachine": {
-		"repo": "https://github.com/tripptrapp84/statemachine",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"tripptrapp84/stater": {
-		"repo": "https://github.com/tripptrapp84/stater",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"u-train/none": {
-		"repo": "https://github.com/u-train/none",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"urlrbx/magicbladessimulator": {
-		"repo": "https://github.com/urlrbx/magicbladessimulator",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"virshal/knitutil": {
-		"repo": "https://github.com/virshal/knitutil",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"virshal/uicomponent": {
-		"repo": "https://github.com/virshal/uicomponent",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"vorlias/log": {
-		"repo": "https://github.com/vorlias/log",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"vorlias/mock-memory-store-service": {
-		"repo": "https://github.com/vorlias/mock-memory-store-service",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"vorlias/net": {
-		"repo": "https://github.com/vorlias/net",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"vorlias/snapdragon": {
-		"repo": "https://github.com/vorlias/snapdragon",
-		"roblox": true,
-		"args": ["."],
-		"branch": ""
-	},
-	"vrazex/jack": {
-		"repo": "https://github.com/vrazex/jack",
+	"zxibs/wrapperservice": {
+		"repo": "https://github.com/zxibs/wrapperservice",
 		"roblox": true,
 		"args": ["."],
 		"branch": ""
