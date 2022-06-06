@@ -22,5 +22,6 @@ runs:
   using: "composite"
   steps:
     - run: chmod +x ${{ github.action_path }}/entrypoint.sh
+      shell: bash
     - run: ${{ github.action_path }}/entrypoint.sh
       shell: bash
