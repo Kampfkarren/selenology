@@ -84,7 +84,7 @@ const main = async () => {
       recursive: true,
     });
 
-    await exec(`git clone ${repository} --depth 1 ${directory}`);
+    await exec(`git clone --depth 1 ${repository} ${directory}`);
 
     debug("running old selene");
     const oldOutput = await exec(

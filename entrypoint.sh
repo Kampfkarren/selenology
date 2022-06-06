@@ -15,7 +15,7 @@ install() {
 
 echo "building current branch"
 git checkout $CURRENT_SELENE_CHECKOUT
-install selene-current &
+install selene-current
 
 echo "cloning new branch"
 cd ..
@@ -24,9 +24,9 @@ git clone $NEW_SELENE_REPOSITORY selene-new
 echo "building new branch"
 cd selene-new
 git checkout $NEW_SELENE_CHECKOUT
-install selene-new &
+install selene-new
 
-wait
+# wait
 
 OUTPUT=$(SELENE_NEW=/usr/bin/selene/selene-new \
 	SELENE_OLD=/usr/bin/selene/selene-current \
