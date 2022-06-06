@@ -8,15 +8,6 @@
 		]
 	},
 
-	"roact": {
-		"repo": "https://github.com/Roblox/roact",
-		"branch": "2239e01f1664b2f82a21e73a166cc0fc807de033",
-		"args": [
-			"src"
-		],
-		"roblox": true
-	},
-
 	"zombie-strike": {
 		"repo": "https://github.com/Kampfkarren/zombie-strike",
 		"branch": "9a3497e49a02a15cc2875f96e85469308792ed9a",

@@ -7,6 +7,7 @@ const path = require("path");
 const process = require("process");
 
 const repos = require("./repos.json");
+const wallyPackages = require("./wally-packages.json");
 
 const write = (text) => process.stdout.write(text);
 
@@ -114,9 +115,15 @@ const main = async () => {
 
     const difference = diff.diffTrimmedLines(oldOutput, newOutput);
     write(renderDiff(repoName, difference));
+
+    await fs.rmdir(directory);
   };
 
   for (const [repoName, repo] of Object.entries(repos)) {
+    await runOnRepo(repoName, repo);
+  }
+
+  for (const [repoName, repo] of Object.entries(wallyPackages)) {
     await runOnRepo(repoName, repo);
   }
 
