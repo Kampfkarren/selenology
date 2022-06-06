@@ -45,12 +45,7 @@ const renderDiff = (id, diff) => {
 };
 
 const main = async () => {
-  const {
-    INPUT_SELENE_OLD: SELENE_OLD,
-    INPUT_SELENE_NEW: SELENE_NEW,
-    INPUT_CLONE_DIRECTORY: CLONE_DIRECTORY,
-    DEBUG,
-  } = process.env;
+  const { SELENE_OLD, SELENE_NEW, CLONE_DIRECTORY, DEBUG } = process.env;
   if (!SELENE_OLD) {
     throw new Error("SELENE_OLD not set");
   }
