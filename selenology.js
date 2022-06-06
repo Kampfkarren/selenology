@@ -84,12 +84,7 @@ const main = async () => {
       recursive: true,
     });
 
-    await exec("git init", { cwd: directory });
-    await exec(`git remote add origin ${repository.repo}`, { cwd: directory });
-    await exec(`git fetch --depth 1 origin ${repository.branch}`, {
-      cwd: directory,
-    });
-    await exec(`git checkout FETCH_HEAD`, { cwd: directory });
+    await exec(`git clone ${repository} --depth 1 ${directory}`);
 
     debug("running old selene");
     const oldOutput = await exec(
