@@ -7,7 +7,7 @@ const process = require("process");
 
 const repos = require("./repos.json");
 
-const write = process.stdout.write;
+const write = (text) => process.stdout.write(text);
 
 const exec = (command, options) => {
   return new Promise((resolve, reject) => {
