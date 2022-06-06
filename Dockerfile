@@ -6,7 +6,7 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
 COPY . .
 
-RUN apt install git=1:2.20.1-2+deb10u3
+RUN apk add --no-cache git
 
 RUN mkdir -p /usr/bin/selene
 RUN mkdir -p /usr/local/repos
