@@ -163,7 +163,7 @@ const main = async () => {
       await fs.writeFile(seleneTomlPath, `std = "roblox"`);
     }
 
-    return compare(wallyPackageName, directory, wallyPackageInfo.args);
+    return compare(wallyPackageName, directory, ["."]);
   };
 
   for (const [wallyPackageName, wallyPackageInfo] of Object.entries(
