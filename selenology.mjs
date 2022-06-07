@@ -9,8 +9,11 @@ import { createWriteStream, existsSync } from "fs";
 import { exec as execChildProcess } from "child_process";
 import { pipeline } from "stream/promises";
 
-import repos from "./repos.json";
-import wallyPackages from "./wally-packages.json";
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+
+const repos = require("./repos.json");
+const wallyPackages = require("./wally-packages.json");
 
 const write = (text) => process.stdout.write(text);
 
