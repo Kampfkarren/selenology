@@ -10,6 +10,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "diff": "^5.1.0",
-    "escape-html": "^1.0.3"
+    "escape-html": "^1.0.3",
+    "extract-zip": "^2.0.1"
   }
 }

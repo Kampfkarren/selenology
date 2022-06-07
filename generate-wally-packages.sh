@@ -18,20 +18,16 @@ echo "{"
 
 for WALLY_PACKAGE in $(find */* -type f ! -name '*.*')
 do
-	REPO=https://github.com/$WALLY_PACKAGE
-
-	# Check if the repository exists
-	if curl -s -o /dev/null -I $REPO --fail; then
-		if [ "$FIRST_RUN" -eq 1 ]; then
-			FIRST_RUN=0
-		else
-			echo ","
-		fi
-
-		echo -n "\"$WALLY_PACKAGE\": { \"repo\": \"$REPO\", \"roblox\": true, \"args\": [\".\"], \"branch\": \"\" }"
+	if [ "$FIRST_RUN" -eq 1 ]; then
+		FIRST_RUN=0
 	else
-		>&2 printf "\n404: $REPO"
+		echo ","
 	fi
+
+	MOST_RECENT_PUSH=$(head $WALLY_PACKAGE -n 1)
+	MOST_RECENT_VERSION=$(echo "$MOST_RECENT_PUSH" | jq .package.version)
+
+	echo -n "\"$WALLY_PACKAGE\": {\"version\": $MOST_RECENT_VERSION}"
 done
 
-echo "}"
+echo "\n}"

@@ -1,7 +1,8 @@
 const { exec: execChildProcess } = require("child_process");
 const diff = require("diff");
 const escape = require("escape-html");
-const { existsSync } = require("fs");
+const extract = require("extract-zip");
+const { createWriteStream, existsSync } = require("fs");
 const fs = require("fs/promises");
 const path = require("path");
 const process = require("process");
@@ -76,19 +77,10 @@ const main = async () => {
   write("</head>");
   write("<body>");
 
-  const runOnRepo = async (repoName, repository) => {
-    debug(`scanning ${repoName}`);
-
-    const directory = path.join(CLONE_DIRECTORY, repoName);
-    await fs.mkdir(directory, {
-      recursive: true,
-    });
-
-    await exec(`git clone --depth 1 ${repository.repo} ${directory}`);
-
+  const compare = async (directory, args) => {
     debug("running old selene");
     const oldOutput = await exec(
-      `${SELENE_OLD} ${repository.args.join(" ")} --num-threads 1`,
+      `${SELENE_OLD} ${args.join(" ")} --num-threads 1`,
       {
         cwd: directory,
       }
@@ -102,7 +94,7 @@ const main = async () => {
 
     debug("running new selene");
     const newOutput = await exec(
-      `${SELENE_NEW} ${repository.args.join(" ")} --num-threads 1`,
+      `${SELENE_NEW} ${args.join(" ")} --num-threads 1`,
       {
         cwd: directory,
       }
@@ -119,12 +111,61 @@ const main = async () => {
     });
   };
 
+  const runOnRepo = async (repoName, repository) => {
+    debug(`scanning ${repoName}`);
+
+    const directory = path.join(CLONE_DIRECTORY, repoName);
+    await fs.mkdir(directory, {
+      recursive: true,
+    });
+
+    await exec(`git clone --depth 1 ${repository.repo} ${directory}`);
+
+    return compare(directory, repository.args);
+  };
+
   for (const [repoName, repo] of Object.entries(repos)) {
     await runOnRepo(repoName, repo);
   }
 
-  for (const [repoName, repo] of Object.entries(wallyPackages)) {
-    await runOnRepo(repoName, repo);
+  const runOnWallyPackage = async (wallyPackageName, wallyPackageInfo) => {
+    const directory = path.join(CLONE_DIRECTORY, wallyPackageName);
+    await fs.mkdir(directory, {
+      recursive: true,
+    });
+
+    const zipPath = path.join(directory, "package.zip");
+    const fileStream = createWriteStream(zipPath);
+
+    // This shouldn't run for more than a second, which is the API limit
+    const wallyResponse = await fetch(
+      `https://api.wally.run/v1/package-contents/${wallyPackageName}/${wallyPackageInfo.version}`,
+      {
+        headers: {
+          "Wally-Version": "0.3.1",
+          "User-Agent": "selenology",
+        },
+      }
+    );
+
+    await wallyResponse.body.pipeTo(fileStream);
+
+    await extract(zipPath, { dir: directory });
+
+    const seleneTomlPath = path.join(directory, "selene.toml");
+    if (!existsSync(seleneTomlPath)) {
+      await fs.writeFile(seleneTomlPath, `std = "roblox"`);
+    }
+
+    return compare(directory, wallyPackageInfo.args);
+  };
+
+  for (const [wallyPackageName, wallyPackageInfo] of Object.entries(
+    wallyPackages
+  )) {
+    runOnWallyPackage(wallyPackageName, wallyPackageInfo).catch((error) => {
+      console.error(`${wallyPackageName}: ${error}`);
+    });
   }
 
   write("</body>");
