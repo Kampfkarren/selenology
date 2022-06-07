@@ -1,8 +1,7 @@
-import diff from "diff";
-
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
+const diff = require("diff");
 const escape = require("escape-html");
 const extract = require("extract-zip");
 const fetch = require("node-fetch");

@@ -1,5 +1,773 @@
 {
 	"kampfkarren/roact-hooks": {
 		"version": "0.3.0"
+	},
+	"kennethloeffler/anatta": {
+		"version": "0.0.0"
+	},
+	"kyexyz/bloxios": {
+		"version": "1.0.0"
+	},
+	"kyexyz/player-data-manager": {
+		"version": "1.0.0"
+	},
+	"kyrethia/registry": {
+		"version": "1.3.0"
+	},
+	"lasttalon/monolith": {
+		"version": "0.1.1"
+	},
+	"legendoj1/tweenservice2": {
+		"version": "2.2.0"
+	},
+	"legendoj1/zoneplus": {
+		"version": "3.2.0"
+	},
+	"lewistehminerz/pooler": {
+		"version": "1.0.0"
+	},
+	"lucasmzreal/fastsignal": {
+		"version": "7.1.6"
+	},
+	"magnalite/test": {
+		"version": "0.1.0"
+	},
+	"magnalite/test-package": {
+		"version": "0.1.1"
+	},
+	"meta-maxim/class-names": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/data-type-names": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/instance-names": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/knit-remote-type-checker": {
+		"version": "1.0.0"
+	},
+	"meta-maxim/knit-rojo-template": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/luau-type-parser": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/luau-types": {
+		"version": "0.1.0"
+	},
+	"meta-maxim/type": {
+		"version": "0.1.0"
+	},
+	"minstrix/bridge": {
+		"version": "0.1.0"
+	},
+	"minstrix/fibre": {
+		"version": "0.2.1"
+	},
+	"mistrustfully/matter-ui": {
+		"version": "0.1.0"
+	},
+	"mkargus/basicstate": {
+		"version": "0.2.3"
+	},
+	"mobiuscraftflip/test-package": {
+		"version": "0.1.0"
+	},
+	"mobyboyy/profileservice": {
+		"version": "0.1.0"
+	},
+	"newspicel/discordwebhook": {
+		"version": "0.1.0"
+	},
+	"nezuo/aether": {
+		"version": "0.1.0"
+	},
+	"nezuo/enumerate": {
+		"version": "0.1.0"
+	},
+	"nezuo/evaluate": {
+		"version": "0.1.0"
+	},
+	"nezuo/spark": {
+		"version": "0.1.0"
+	},
+	"nezuo/subject": {
+		"version": "0.1.0"
+	},
+	"nidoxs/datastore2": {
+		"version": "1.4.0"
+	},
+	"nightcycle/attributer": {
+		"version": "1.0.0"
+	},
+	"nightcycle/boat-graph": {
+		"version": "1.0.0"
+	},
+	"nightcycle/boattween": {
+		"version": "1.0.0"
+	},
+	"nightcycle/checkbox": {
+		"version": "0.1.0"
+	},
+	"nightcycle/cold-fusion": {
+		"version": "0.1.0"
+	},
+	"nightcycle/draw": {
+		"version": "1.0.0"
+	},
+	"nightcycle/effect": {
+		"version": "1.0.0"
+	},
+	"nightcycle/enum": {
+		"version": "0.1.0"
+	},
+	"nightcycle/fetchu": {
+		"version": "1.0.0"
+	},
+	"nightcycle/filter": {
+		"version": "1.0.0"
+	},
+	"nightcycle/fire": {
+		"version": "0.1.0"
+	},
+	"nightcycle/format": {
+		"version": "0.1.0"
+	},
+	"nightcycle/fsm": {
+		"version": "1.0.0"
+	},
+	"nightcycle/gui-3d": {
+		"version": "1.0.0"
+	},
+	"nightcycle/hitbox": {
+		"version": "4.1.0"
+	},
+	"nightcycle/iconlabel": {
+		"version": "0.1.0"
+	},
+	"nightcycle/instancify": {
+		"version": "1.0.0"
+	},
+	"nightcycle/isotope": {
+		"version": "1.0.0"
+	},
+	"nightcycle/library": {
+		"version": "1.0.0"
+	},
+	"nightcycle/math": {
+		"version": "2.0.0"
+	},
+	"nightcycle/math2": {
+		"version": "1.0.0"
+	},
+	"nightcycle/midas": {
+		"version": "0.1.1"
+	},
+	"nightcycle/package": {
+		"version": "3.7.1"
+	},
+	"nightcycle/player": {
+		"version": "0.1.0"
+	},
+	"nightcycle/query": {
+		"version": "0.1.0"
+	},
+	"nightcycle/radio-button": {
+		"version": "0.1.0"
+	},
+	"nightcycle/reactor": {
+		"version": "0.1.0"
+	},
+	"nightcycle/replicator": {
+		"version": "1.0.0"
+	},
+	"nightcycle/rx": {
+		"version": "3.7.1"
+	},
+	"nightcycle/sound": {
+		"version": "1.0.0"
+	},
+	"nightcycle/string": {
+		"version": "0.1.0"
+	},
+	"nightcycle/switch": {
+		"version": "0.1.0"
+	},
+	"nightcycle/synthetic": {
+		"version": "0.1.0"
+	},
+	"nightcycle/textlabel": {
+		"version": "0.1.0"
+	},
+	"nightcycle/texture": {
+		"version": "0.1.0"
+	},
+	"nightcycle/timesync": {
+		"version": "0.1.0"
+	},
+	"nightcycle/typography": {
+		"version": "1.0.0"
+	},
+	"nightcycle/valuesequence": {
+		"version": "1.0.0"
+	},
+	"nightcycle/viewport-handler": {
+		"version": "1.0.6"
+	},
+	"nightcycle/voxel": {
+		"version": "0.1.0"
+	},
+	"nomer888/bindtoattribute": {
+		"version": "0.1.0"
+	},
+	"nomer888/bindtotag": {
+		"version": "0.1.0"
+	},
+	"nomer888/mockdatastoreservice": {
+		"version": "1.0.1"
+	},
+	"nomer888/playerdatastore": {
+		"version": "0.1.0"
+	},
+	"nottirb/fusion-test": {
+		"version": "0.1.1-beta"
+	},
+	"nottirb/fusion-utils": {
+		"version": "0.1.0-beta"
+	},
+	"nottirb/profileservice": {
+		"version": "0.1.0"
+	},
+	"nottirb/storytaskbar": {
+		"version": "0.1.0-beta"
+	},
+	"octale/profileservice": {
+		"version": "0.0.1"
+	},
+	"octale/tokeru": {
+		"version": "0.0.1"
+	},
+	"ofjai/fastcast": {
+		"version": "0.1.0"
+	},
+	"ofjai/profileservice": {
+		"version": "0.1.0"
+	},
+	"osyrisrblx/t": {
+		"version": "2.2.1"
+	},
+	"overlinejunior/multisound": {
+		"version": "0.1.0"
+	},
+	"overlinejunior/result": {
+		"version": "0.1.0"
+	},
+	"ozzypig/logging": {
+		"version": "0.2.0"
+	},
+	"passhley/gooey-particles": {
+		"version": "0.1.0"
+	},
+	"passhley/wobble": {
+		"version": "0.1.0"
+	},
+	"pastelly64/bloxwork": {
+		"version": "0.1.0"
+	},
+	"penguindevs/boattween": {
+		"version": "1.0.0"
+	},
+	"penguindevs/boattween-fork": {
+		"version": "1.0.2"
+	},
+	"penguindevs/easing-funcs": {
+		"version": "1.0.0"
+	},
+	"penguindevs/instance-cache": {
+		"version": "1.0.0"
+	},
+	"penguindevs/loadstring": {
+		"version": "1.0.0"
+	},
+	"penguindevs/numerics": {
+		"version": "1.0.0"
+	},
+	"penguindevs/trove-fork": {
+		"version": "0.3.0"
+	},
+	"polarsystems/polaradmin": {
+		"version": "0.0.1"
+	},
+	"qromp/create-context": {
+		"version": "0.1.0"
+	},
+	"qromp/edge-insets": {
+		"version": "1.0.0"
+	},
+	"qromp/llama": {
+		"version": "1.0.0"
+	},
+	"qromp/stylizer": {
+		"version": "0.1.0"
+	},
+	"qualadore/promise": {
+		"version": "4.0.0"
+	},
+	"quenty/binder": {
+		"version": "4.2.1-canary.140ed9d6.1"
+	},
+	"quenty/loader": {
+		"version": "3.1.1-canary.140ed9d6.1"
+	},
+	"quenty/maid": {
+		"version": "2.0.1-canary.140ed9d6.0"
+	},
+	"quenty/promise": {
+		"version": "3.1.2"
+	},
+	"quenty/signal": {
+		"version": "2.0.0-canary.140ed9d6.0"
+	},
+	"raphtalia/adornee": {
+		"version": "1.0.0"
+	},
+	"raphtalia/canvas": {
+		"version": "1.0.0"
+	},
+	"raphtalia/class": {
+		"version": "1.0.0"
+	},
+	"raphtalia/enum": {
+		"version": "1.0.0"
+	},
+	"raphtalia/firebase": {
+		"version": "1.0.0"
+	},
+	"raphtalia/hashlib": {
+		"version": "1.0.0"
+	},
+	"raphtalia/luanoid": {
+		"version": "1.0.0"
+	},
+	"raphtalia/rbxutils": {
+		"version": "1.0.0"
+	},
+	"raphtalia/robloxapi": {
+		"version": "1.0.0"
+	},
+	"raphtalia/signal": {
+		"version": "1.0.0"
+	},
+	"raphtalia/vrlib": {
+		"version": "1.0.1"
+	},
+	"reselim/base64": {
+		"version": "1.0.0"
+	},
+	"reselim/flipper": {
+		"version": "2.0.0"
+	},
+	"reselim/quicksave": {
+		"version": "1.0.0"
+	},
+	"reselim/roact-flipper": {
+		"version": "1.1.0"
+	},
+	"reselim/roact-router": {
+		"version": "1.0.0"
+	},
+	"revvy02/cleaner": {
+		"version": "0.0.1"
+	},
+	"revvy02/mocknetwork": {
+		"version": "0.0.1"
+	},
+	"revvy02/slick": {
+		"version": "0.0.1"
+	},
+	"rimuy/gamejoy": {
+		"version": "1.1.0"
+	},
+	"rimuy/roselect": {
+		"version": "0.1.0"
+	},
+	"riverman56/willow": {
+		"version": "0.1.0"
+	},
+	"roblox/roact": {
+		"version": "1.4.0"
+	},
+	"roblox/roact-rodux": {
+		"version": "0.3.0"
+	},
+	"roblox/rodux": {
+		"version": "3.0.0"
+	},
+	"roblox/testez": {
+		"version": "0.4.1"
+	},
+	"rstk/bitbuffer": {
+		"version": "1.0.0"
+	},
+	"rstk/reactivegraph": {
+		"version": "0.1.0"
+	},
+	"rudy-dev/profileservice": {
+		"version": "1.0.0"
+	},
+	"rudy-dev/random": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/core": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/fusion": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/janitor": {
+		"version": "1.14.1"
+	},
+	"ruizukun-dev/llama": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/matter": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/nature2d": {
+		"version": "0.7.1"
+	},
+	"ruizukun-dev/playermodule": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/profileservice": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/promise": {
+		"version": "4.0.1"
+	},
+	"ruizukun-dev/raycasthitbox": {
+		"version": "1.0.0"
+	},
+	"ruizukun-dev/t": {
+		"version": "3.0.0"
+	},
+	"ruizukun-dev/testez": {
+		"version": "0.4.2"
+	},
+	"ruizukun-dev/tests": {
+		"version": "1.0.1"
+	},
+	"ruizukun-dev/utilities": {
+		"version": "1.0.0"
+	},
+	"sadneo/loader": {
+		"version": "0.1.0"
+	},
+	"sarimwastaken/madprofileservice": {
+		"version": "0.1.0"
+	},
+	"sarimwastaken/profileservice": {
+		"version": "0.1.0"
+	},
+	"sarimwastaken/roexpress": {
+		"version": "0.1.0"
+	},
+	"sayhisam1/rbx-roact-components": {
+		"version": "1.0.0"
+	},
+	"sayhisam1/rewire": {
+		"version": "0.1.0"
+	},
+	"sayhisam1/ropost": {
+		"version": "1.0.0"
+	},
+	"sayhisam1/stitch": {
+		"version": "0.9.0"
+	},
+	"scotch101tape/rusty-luau": {
+		"version": "0.1.0"
+	},
+	"shadowengineer/zoneplus": {
+		"version": "0.1.0"
+	},
+	"shanebutt/llama": {
+		"version": "1.1.0"
+	},
+	"shanebutt/portal": {
+		"version": "0.5.0"
+	},
+	"shanebutt/robase-service": {
+		"version": "2.2.0"
+	},
+	"shanebutt/t": {
+		"version": "1.3.1"
+	},
+	"si-senortn/attribute": {
+		"version": "0.0.1"
+	},
+	"si-senortn/color": {
+		"version": "0.0.1"
+	},
+	"si-senortn/config": {
+		"version": "0.0.1"
+	},
+	"si-senortn/enum": {
+		"version": "0.0.1"
+	},
+	"si-senortn/events": {
+		"version": "0.0.2"
+	},
+	"si-senortn/input": {
+		"version": "0.0.1"
+	},
+	"si-senortn/list": {
+		"version": "0.0.1"
+	},
+	"si-senortn/math": {
+		"version": "0.0.1"
+	},
+	"si-senortn/scarlet": {
+		"version": "1.0.0"
+	},
+	"si-senortn/set": {
+		"version": "0.0.1"
+	},
+	"si-senortn/signal": {
+		"version": "0.0.1"
+	},
+	"si-senortn/strict": {
+		"version": "0.0.1"
+	},
+	"si-senortn/symbol": {
+		"version": "0.0.1"
+	},
+	"si-senortn/table": {
+		"version": "0.0.1"
+	},
+	"si-senortn/vector": {
+		"version": "0.0.1"
+	},
+	"si-senortn/yieldable": {
+		"version": "0.0.1"
+	},
+	"sircfenner/studiocomponents": {
+		"version": "0.1.1"
+	},
+	"sleitnick/axis": {
+		"version": "0.1.0"
+	},
+	"sleitnick/comm": {
+		"version": "0.1.0"
+	},
+	"sleitnick/component": {
+		"version": "1.0.0"
+	},
+	"sleitnick/concur": {
+		"version": "0.1.0"
+	},
+	"sleitnick/enum-list": {
+		"version": "1.0.0"
+	},
+	"sleitnick/input": {
+		"version": "1.0.0"
+	},
+	"sleitnick/knit": {
+		"version": "1.0.0"
+	},
+	"sleitnick/loader": {
+		"version": "1.0.0"
+	},
+	"sleitnick/log": {
+		"version": "0.1.0"
+	},
+	"sleitnick/option": {
+		"version": "0.1.0"
+	},
+	"sleitnick/pid": {
+		"version": "1.0.0"
+	},
+	"sleitnick/remote": {
+		"version": "1.0.0"
+	},
+	"sleitnick/ser": {
+		"version": "1.0.0"
+	},
+	"sleitnick/shake": {
+		"version": "0.1.0"
+	},
+	"sleitnick/signal": {
+		"version": "1.0.0"
+	},
+	"sleitnick/silo": {
+		"version": "0.1.0"
+	},
+	"sleitnick/streamable": {
+		"version": "1.0.0"
+	},
+	"sleitnick/symbol": {
+		"version": "1.0.0"
+	},
+	"sleitnick/table-util": {
+		"version": "1.0.0"
+	},
+	"sleitnick/task-queue": {
+		"version": "0.1.0"
+	},
+	"sleitnick/timer": {
+		"version": "1.0.0"
+	},
+	"sleitnick/trove": {
+		"version": "0.1.0"
+	},
+	"sleitnick/wait-for": {
+		"version": "0.1.0"
+	},
+	"solarhorizon/rodux-hooks": {
+		"version": "0.1.0"
+	},
+	"stealthwave5/overlord": {
+		"version": "0.1.0"
+	},
+	"stravant/goodsignal": {
+		"version": "0.1.0"
+	},
+	"synthetic-dev/enums": {
+		"version": "1.0.0"
+	},
+	"synthetic-dev/ezspec": {
+		"version": "0.1.0"
+	},
+	"synthetic-dev/kache": {
+		"version": "1.0.0"
+	},
+	"synthetic-dev/mydatastore": {
+		"version": "1.0.0"
+	},
+	"t4rp/istrue": {
+		"version": "0.1.0"
+	},
+	"thenerdie/raxios": {
+		"version": "1.0.0"
+	},
+	"thenerdie/rbx-parse-server": {
+		"version": "0.1.0"
+	},
+	"thenerdie/roact-rodux": {
+		"version": "0.1.0"
+	},
+	"thenerdie/roact-router": {
+		"version": "1.0.0"
+	},
+	"tiniestdev/moceanlib": {
+		"version": "0.1.0"
+	},
+	"tkdriverx/foreman": {
+		"version": "0.1.0"
+	},
+	"tpc9000/tableutil": {
+		"version": "0.1.0"
+	},
+	"tpc9000/typeguard": {
+		"version": "0.1.0"
+	},
+	"tripptrapp84/statemachine": {
+		"version": "1.0.0"
+	},
+	"tripptrapp84/stater": {
+		"version": "1.0.0"
+	},
+	"u-train/instancequerier": {
+		"version": "0.0.1"
+	},
+	"u-train/none": {
+		"version": "0.0.1"
+	},
+	"u-train/studiocomponents": {
+		"version": "0.1.0"
+	},
+	"ukendio/robloxmath": {
+		"version": "0.0.1-a.1"
+	},
+	"urlrbx/magicbladessimulator": {
+		"version": "0.1.0"
+	},
+	"vilbat/component": {
+		"version": "0.1.0"
+	},
+	"vilbat/composition": {
+		"version": "0.1.0"
+	},
+	"vilbat/statemachine": {
+		"version": "0.1.0"
+	},
+	"virshal/knitutil": {
+		"version": "0.1.0"
+	},
+	"virshal/uicomponent": {
+		"version": "0.1.0"
+	},
+	"vocksel/class": {
+		"version": "0.1.0"
+	},
+	"vocksel/complex-regions": {
+		"version": "0.1.0"
+	},
+	"vocksel/context-controls": {
+		"version": "1.0.0"
+	},
+	"vocksel/import": {
+		"version": "1.2.0"
+	},
+	"vocksel/mock": {
+		"version": "0.1.0"
+	},
+	"vocksel/module-loader": {
+		"version": "0.1.0"
+	},
+	"vocksel/tag": {
+		"version": "0.2.0"
+	},
+	"vocksel/timer": {
+		"version": "0.1.0"
+	},
+	"vocksel/viewport-skybox": {
+		"version": "0.1.0"
+	},
+	"vorlias/log": {
+		"version": "0.6.1"
+	},
+	"vorlias/mock-memory-store-service": {
+		"version": "0.2.0-1"
+	},
+	"vorlias/net": {
+		"version": "2.1.4"
+	},
+	"vorlias/snapdragon": {
+		"version": "2.0.0"
+	},
+	"vrazex/jack": {
+		"version": "0.1.0"
+	},
+	"weldify/lynx": {
+		"version": "1.0.0"
+	},
+	"xactlyblue/rocomponents": {
+		"version": "0.0.1"
+	},
+	"ytrev/replion": {
+		"version": "0.2.0"
+	},
+	"zxibs/bitbuffer": {
+		"version": "1.1.0"
+	},
+	"zxibs/roact": {
+		"version": "1.4.0"
+	},
+	"zxibs/signalservice": {
+		"version": "0.2.0"
+	},
+	"zxibs/wrapperservice": {
+		"version": "0.1.0"
 	}
 }
