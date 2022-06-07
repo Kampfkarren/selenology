@@ -1,16 +1,17 @@
 import diff from "diff";
-import escape from "escape-html";
-import extract from "extract-zip";
-import fetch from "node-fetch";
-import fs from "fs/promises";
-import path from "path";
-import process from "process";
-import { createWriteStream, existsSync } from "fs";
-import { exec as execChildProcess } from "child_process";
-import { pipeline } from "stream/promises";
 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
+
+const escape = require("escape-html");
+const extract = require("extract-zip");
+const fetch = require("node-fetch");
+const fs = require("fs/promises");
+const path = require("path");
+const process = require("process");
+const { createWriteStream, existsSync } = require("fs");
+const { exec: execChildProcess } = require("child_process");
+const { pipeline } = require("stream/promises");
 
 const repos = require("./repos.json");
 const wallyPackages = require("./wally-packages.json");
