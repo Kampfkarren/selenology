@@ -2,7 +2,9 @@ const { exec: execChildProcess } = require("child_process");
 const diff = require("diff");
 const escape = require("escape-html");
 const extract = require("extract-zip");
+const fetch = require("node-fetch");
 const { createWriteStream, existsSync } = require("fs");
+const { pipeline } = require("stream/promises");
 const fs = require("fs/promises");
 const path = require("path");
 const process = require("process");
@@ -148,7 +150,7 @@ const main = async () => {
       }
     );
 
-    await wallyResponse.body.pipeTo(fileStream);
+    await pipeline(wallyResponse.body, fileStream);
 
     await extract(zipPath, { dir: directory });
 
