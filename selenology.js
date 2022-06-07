@@ -77,7 +77,7 @@ const main = async () => {
   write("</head>");
   write("<body>");
 
-  const compare = async (directory, args) => {
+  const compare = async (repoName, directory, args) => {
     debug("running old selene");
     const oldOutput = await exec(
       `${SELENE_OLD} ${args.join(" ")} --num-threads 1`,
@@ -121,7 +121,7 @@ const main = async () => {
 
     await exec(`git clone --depth 1 ${repository.repo} ${directory}`);
 
-    return compare(directory, repository.args);
+    return compare(repoName, directory, repository.args);
   };
 
   for (const [repoName, repo] of Object.entries(repos)) {
@@ -157,7 +157,7 @@ const main = async () => {
       await fs.writeFile(seleneTomlPath, `std = "roblox"`);
     }
 
-    return compare(directory, wallyPackageInfo.args);
+    return compare(wallyPackageName, directory, wallyPackageInfo.args);
   };
 
   for (const [wallyPackageName, wallyPackageInfo] of Object.entries(
