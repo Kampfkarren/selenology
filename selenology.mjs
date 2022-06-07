@@ -1,10 +1,11 @@
+import fetch from "node-fetch";
+
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 const diff = require("diff");
 const escape = require("escape-html");
 const extract = require("extract-zip");
-const fetch = require("node-fetch");
 const fs = require("fs/promises");
 const path = require("path");
 const process = require("process");
