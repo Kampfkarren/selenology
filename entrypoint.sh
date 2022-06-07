@@ -29,7 +29,7 @@ install selene-new
 OUTPUT=$(SELENE_NEW=/usr/bin/selene/selene-new \
 	SELENE_OLD=/usr/bin/selene/selene-current \
 	CLONE_DIRECTORY=/usr/local/repos \
-	node /usr/src/selenology/selenology.js)
+	node /usr/src/selenology/selenology.mjs)
 OUTPUT="${OUTPUT//'%'/'%25'}"
 OUTPUT="${OUTPUT//$'\n'/'%0A'}"
 OUTPUT="${OUTPUT//$'\r'/'%0D'}"
