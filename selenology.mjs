@@ -12,6 +12,7 @@ const process = require("process");
 const { createWriteStream, existsSync } = require("fs");
 const { exec: execChildProcess } = require("child_process");
 const { pipeline } = require("stream/promises");
+const { PromisePool } = require("@supercharge/promise-pool");
 
 const repos = require("./repos.json");
 const wallyPackages = require("./wally-packages.json");
@@ -143,7 +144,6 @@ const main = async () => {
     const zipPath = path.join(directory, "package.zip");
     const fileStream = createWriteStream(zipPath);
 
-    // This shouldn't run for more than a second, which is the API limit
     const wallyResponse = await fetch(
       `https://api.wally.run/v1/package-contents/${wallyPackageName}/${wallyPackageInfo.version}`,
       {
@@ -166,13 +166,16 @@ const main = async () => {
     return compare(wallyPackageName, directory, ["."]);
   };
 
-  for (const [wallyPackageName, wallyPackageInfo] of Object.entries(
-    wallyPackages
-  )) {
-    runOnWallyPackage(wallyPackageName, wallyPackageInfo).catch((error) => {
-      console.error(`${wallyPackageName}: ${error}`);
+  // TODO: This doesn't follow the API limits, this needs to delay over 1 second
+  await PromisePool.withConcurrency(10)
+    .for(Object.entries(wallyPackages))
+    .process(([wallyPackageName, wallyPackageInfo]) => {
+      return runOnWallyPackage(wallyPackageName, wallyPackageInfo).catch(
+        (error) => {
+          console.error(`${wallyPackageName}: ${error}`);
+        }
+      );
     });
-  }
 
   write("</body>");
   write("</html>");
