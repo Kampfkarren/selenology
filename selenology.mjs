@@ -167,15 +167,15 @@ const main = async () => {
   };
 
   // TODO: This doesn't follow the API limits, this needs to delay over 1 second
-  await PromisePool.withConcurrency(10)
-    .for(Object.entries(wallyPackages))
-    .process(([wallyPackageName, wallyPackageInfo]) => {
-      return runOnWallyPackage(wallyPackageName, wallyPackageInfo).catch(
-        (error) => {
-          console.error(`${wallyPackageName}: ${error}`);
-        }
-      );
-    });
+  // await PromisePool.withConcurrency(10)
+  //   .for(Object.entries(wallyPackages))
+  //   .process(([wallyPackageName, wallyPackageInfo]) => {
+  //     return runOnWallyPackage(wallyPackageName, wallyPackageInfo).catch(
+  //       (error) => {
+  //         console.error(`${wallyPackageName}: ${error}`);
+  //       }
+  //     );
+  //   });
 
   write("</body>");
   write("</html>");
