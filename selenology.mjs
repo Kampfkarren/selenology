@@ -50,8 +50,6 @@ const renderDiff = (id, diff) => {
   return rendered;
 };
 
-const ROBLOX_STD = "~/.cache/selene/roblox.yml";
-
 const main = async () => {
   const { SELENE_OLD, SELENE_NEW, CLONE_DIRECTORY, DEBUG } = process.env;
   if (!SELENE_OLD) {
@@ -72,11 +70,16 @@ const main = async () => {
     }
   };
   
-  const clearRobloxCache = async () => {
-    if (existsSync(ROBLOX_STD)) {
-      debug(`deleting ${ROBLOX_STD}`);
-      await fs.rm(ROBLOX_STD);
+  const deleteIfExists = async (path) => {
+    if (existsSync(path)) {
+      await fs.rm(path);
     }
+  };
+  
+  const clearRobloxCache = async (base) => {
+    deleteIfExists("~/.cache/selene/roblox.yml");
+    deleteIfExists(path.join(base, "roblox.yml"));
+    deleteIfExists(path.join(base, "roblox.toml"));
   };
 
   write("<!DOCTYPE html>");
@@ -95,7 +98,7 @@ const main = async () => {
 
   const compare = async (repoName, directory, args) => {
     debug("running old selene");
-    clearRobloxCache();
+    clearRobloxCache(directory);
     const oldOutput = await exec(
       `${SELENE_OLD} ${args.join(" ")} --num-threads 1`,
       {
@@ -104,7 +107,7 @@ const main = async () => {
     );
 
     debug("running new selene");
-    clearRobloxCache();
+    clearRobloxCache(directory);
     const newOutput = await exec(
       `${SELENE_NEW} ${args.join(" ")} --num-threads 1`,
       {
