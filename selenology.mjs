@@ -93,7 +93,7 @@ const main = async () => {
       }
     );
 
-    const robloxStd = path.join(directory, "roblox.yml");
+    const robloxStd = "~/.cache/selene/roblox.yml";
     if (existsSync(robloxStd)) {
       debug(`deleting ${robloxStd}`);
       await fs.rm(robloxStd);
