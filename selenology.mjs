@@ -50,6 +50,8 @@ const renderDiff = (id, diff) => {
   return rendered;
 };
 
+const ROBLOX_STD = "~/.cache/selene/roblox.yml";
+
 const main = async () => {
   const { SELENE_OLD, SELENE_NEW, CLONE_DIRECTORY, DEBUG } = process.env;
   if (!SELENE_OLD) {
@@ -69,6 +71,13 @@ const main = async () => {
       process.stderr.write(`${text}\n`);
     }
   };
+  
+  const clearRobloxCache = async () => {
+    if (existsSync(ROBLOX_STD)) {
+      debug(`deleting ${ROBLOX_STD}`);
+      await fs.rm(ROBLOX_STD);
+    }
+  };
 
   write("<!DOCTYPE html>");
   write("<html>");
@@ -86,6 +95,7 @@ const main = async () => {
 
   const compare = async (repoName, directory, args) => {
     debug("running old selene");
+    clearRobloxCache();
     const oldOutput = await exec(
       `${SELENE_OLD} ${args.join(" ")} --num-threads 1`,
       {
@@ -93,13 +103,8 @@ const main = async () => {
       }
     );
 
-    const robloxStd = "~/.cache/selene/roblox.yml";
-    if (existsSync(robloxStd)) {
-      debug(`deleting ${robloxStd}`);
-      await fs.rm(robloxStd);
-    }
-
     debug("running new selene");
+    clearRobloxCache();
     const newOutput = await exec(
       `${SELENE_NEW} ${args.join(" ")} --num-threads 1`,
       {
